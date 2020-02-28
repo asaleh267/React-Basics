@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Hello World!
         </p>
         <Greet></Greet>
+        <Welcome></Welcome>
         <a
           className="App-link"
           href="https://reactjs.org"
